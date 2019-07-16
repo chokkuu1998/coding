@@ -1,7 +1,10 @@
-num=int(input())
-num_input=input()
-lis1=lis(map(int,num_input.split()))
-lis1.sort(reverse=True)
-s=[str(i) for i in lis1]
-result=int("".join(s))
-print(result)
+ekk=int(input())
+akk=input("")
+ckk=list(akk.split(" "))
+ckk.sort(reverse=True)
+bkk=list(map(int,ckk))
+if sum(bkk)==0:
+  print("0")
+else:
+  dkk="".join(ckk)
+  print(dkk)
