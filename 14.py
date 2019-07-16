@@ -1,16 +1,13 @@
-nn=int(input())
-l=[int(i) for i in input().split()]
-while nn!=0:
-	if nn%2==0:
-		aa=int(nn/2)
-		bb=a-1
-		avg=(l[aa]+l[bb])//2
-		print(avg)
-		l.remove(l[aa])
-		l.remove(l[bb])
-		nn=nn-2
+MM=int(input())
+xx=[int(i) for i in input().split()]
+while len(xx)!=0:
+	n=len(xx)
+	y=len(xx)//2
+	if n%2==1:
+		print(xx[y])
+		xx.remove(xx[y])
 	else:
-		aa=(nn//2)
-		print(l[aa])
-		l.remove(l[aa])
-		nn=nn-1
+		MM=(xx[y]+xx[y-1])//2
+		print(MM)
+		xx.remove(xx[y])
+		xx.remove(xx[y-1])
