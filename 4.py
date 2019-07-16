@@ -1,7 +1,7 @@
-n=int(input())
-a=list(map(int,input().split()))[:n]
-b=min(a)
-c=max(a)
-b=a.index(b)+1
-c=a.index(c)+1
-print(b,c
+nn=int(input())
+aa=list(map(int,input().split()))[:nn]
+bb=min(aa)
+cc=max(aa)
+bb=aa.index(bb)+1
+cc=aa.index(cc)+1
+print(bb,cc)
